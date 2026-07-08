@@ -1,0 +1,12 @@
+aws_region           = "us-east-1"
+environment          = "dev"
+name_prefix          = "migration-factory"
+artifact_bucket_name = "migration-factory-artifacts-dev-000000000000"
+
+force_destroy_artifacts    = false
+state_table_read_capacity  = 5
+state_table_write_capacity = 5
+
+tags = {
+  Owner = "platform-team"
+}
